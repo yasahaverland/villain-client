@@ -54,7 +54,7 @@ function Villain() {
           <p>Client: {villain.client}</p>
           <p>Reward: {villain && villain.reward}</p>
           <p>Last Seen: {villain && villain.lastSeen}</p>
-           <h4>{villain && villain.captured ? 'in custody' : 'Wanted'}</h4>
+           <p>{villain && villain.captured ? 'IN CUSTODY' : 'WANTED'}</p>
     
        
         <div className="edit-delete">

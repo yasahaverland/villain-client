@@ -24,7 +24,8 @@ h1 {
   text-shadow: 2px 2px 10px #947fd1;
 }
 p {
-  text-shadow: 2px 2px 10px #947fd1;
+  color: rgb(141, 205, 244);
+  text-shadow: 2px 2px 10px #b5adcc;
 }
 h2 {
   text-shadow: 2px 2px 10px #947fd1;
@@ -47,6 +48,21 @@ h2 {
   flex-direction: column;
   align-items: center;
 
+}
+/* VILLAIN */
+.edit-delete {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 180px;
+}
+
+button {
+  font-size: 20px;
+  background-color: #7f9cd1;
+  color: rgb(57, 57, 124);
+  border: none;
+  box-shadow: 2px 2px 10px #947fd1;
+  cursor: pointer;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
